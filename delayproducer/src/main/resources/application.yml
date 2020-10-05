@@ -1,0 +1,11 @@
+# rabbitmq配置
+spring:
+    rabbitmq:
+      addresses: 127.0.0.1
+      username: guest
+      password: guest
+      publisher-confirms: true #开启 confirm 确认机制
+      publisher-returns:  true #开启 return 确认机制
+      template:
+        mandatory: true #设置为 true 后 消费者在消息没有被路由到合适队列情况下会被return监听，而不会自动删除
+      virtual-host:

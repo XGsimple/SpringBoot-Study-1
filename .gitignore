@@ -12,3 +12,13 @@ logs
 target
 *.iml
 .idea
+/delayconsumer/*.gitignore
+/delayconsumer/mvnw
+/delayconsumer/*.cmd
+*.gitignore
+mvnw
+mvnw.cmd
+maven-wrapper.jar
+/delayproducer/.mvn/wrapper/*.jar
+/delayconsumer/.mvn/wrapper
+/delayproducer/.mvn/wrapper
